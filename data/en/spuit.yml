@@ -1,0 +1,36 @@
+about:
+  enable: true
+  title: ""
+  subtitle: "Spuit Werk"
+  content: "Bij Mondria Spuit- en Schilderwerk bieden wij deskundig spuitwerk voor een verscheidenheid aan toepassingen, van jachten en keukens tot andere objecten. 
+   Onze technieken zorgen voor een gelijkmatige, professionele afwerking met een duurzame, hoogwaardige uitstraling. 
+   Met aandacht voor detail en precisie creëren wij een vlekkeloze afwerking die niet alleen esthetisch aantrekkelijk is, 
+   maar ook bestand is tegen dagelijks gebruik. Ons spuitwerk garandeert een uitstekende bescherming en een verfijnde look voor al uw projecten."
+############################ Clients logo slider ##########################
+clients_logo_slider:
+  enable : true
+  slider_item:
+    # slider item loop
+    - name : "jachthaven-zevenbergen"
+      logo : "images/clients/jachthaven-zevenbergen.png"
+      link : "https://jachtwerfzevenbergen.nl/"
+      
+    # slider item loop
+    - name : "boarnstream"
+      logo : "images/clients/boarnstream.png"
+      link : "https://www.boarnstream.com/nl/"
+      
+    # slider item loop
+    - name : "m3"
+      logo : "images/clients/m3-logo.png"
+      link : "https://www.3m.com/"
+      
+    # slider item loop
+    - name : "awlgrip"
+      logo : "images/clients/awlgrip.png"
+      link : "https://www.awlgrip.com/europe" 
+
+    # slider item loop
+    - name : "devilbiss"
+      logo : "images/clients/devilbiss-logo.png"
+      link : "https://www.autorefinishdevilbiss.com/" 

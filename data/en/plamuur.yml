@@ -1,0 +1,36 @@
+about:
+  enable: true
+  title: ""
+  subtitle: "Plamuur Werk"
+  content: "Bij Mondria Spuit- en Schilderwerk bieden we deskundigheid en jarenlange ervaring in het plamuren van diverse oppervlakken,
+    van jachten tot keukens en meer. Onze focus ligt op het leveren van een onberispelijke, 
+    gladde en gelijkmatige afwerking, wat resulteert in een esthetisch aantrekkelijke uitstraling. 
+    Wij zijn toegewijd aan detail en precisie om ervoor te zorgen dat u altijd tevreden bent met het resultaat van ons vakwerk."
+############################ Clients logo slider ##########################
+clients_logo_slider:
+  enable : true
+  slider_item:
+    # slider item loop
+    - name : "jachthaven-zevenbergen"
+      logo : "images/clients/jachthaven-zevenbergen.png"
+      link : "https://jachtwerfzevenbergen.nl/"
+      
+    # slider item loop
+    - name : "boarnstream"
+      logo : "images/clients/boarnstream.png"
+      link : "https://www.boarnstream.com/nl/"
+      
+    # slider item loop
+    - name : "m3"
+      logo : "images/clients/m3-logo.png"
+      link : "https://www.3m.com/"
+      
+    # slider item loop
+    - name : "awlgrip"
+      logo : "images/clients/awlgrip.png"
+      link : "https://www.awlgrip.com/europe" 
+
+    # slider item loop
+    - name : "devilbiss"
+      logo : "images/clients/devilbiss-logo.png"
+      link : "https://www.autorefinishdevilbiss.com/" 

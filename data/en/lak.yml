@@ -1,0 +1,37 @@
+about:
+  enable: true
+  title: ""
+  subtitle: "Lak Werk"
+  content: "Lakwerk is essentieel voor het beschermen, verfraaien en versterken van de glans van houten oppervlakken, 
+   of het nu gaat om meubels, vloeren of andere houten objecten. 
+   Door het aanbrengen van meerdere laklagen creëren we een uniek visueel effect dat zowel esthetisch aantrekkelijk als functioneel is. 
+   Geheel gelakt hout vraagt minimaal onderhoud en behoudt zijn prachtige staat jarenlang. 
+   Het uitvoeren van hoogwaardig lakwerk is een kunst op zich, waarbij vakmanschap en precisie samenkomen om een duurzame en schitterende afwerking te realiseren."
+############################ Clients logo slider ##########################
+clients_logo_slider:
+  enable : true
+  slider_item:
+    # slider item loop
+    - name : "jachthaven-zevenbergen"
+      logo : "images/clients/jachthaven-zevenbergen.png"
+      link : "https://jachtwerfzevenbergen.nl/"
+      
+    # slider item loop
+    - name : "boarnstream"
+      logo : "images/clients/boarnstream.png"
+      link : "https://www.boarnstream.com/nl/"
+      
+    # slider item loop
+    - name : "m3"
+      logo : "images/clients/m3-logo.png"
+      link : "https://www.3m.com/"
+      
+    # slider item loop
+    - name : "awlgrip"
+      logo : "images/clients/awlgrip.png"
+      link : "https://www.awlgrip.com/europe" 
+
+    # slider item loop
+    - name : "devilbiss"
+      logo : "images/clients/devilbiss-logo.png"
+      link : "https://www.autorefinishdevilbiss.com/" 
