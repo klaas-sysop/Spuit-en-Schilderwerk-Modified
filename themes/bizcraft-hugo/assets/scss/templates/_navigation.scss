@@ -1,0 +1,233 @@
+/* Main navigation */
+/*-- my-edit-start --*/
+.navbar {
+    padding: 0;
+    height: auto; /* Remove height for mobile, adjust as needed */
+}
+
+.navbar-toggler:focus {
+    outline: 0;
+}
+
+/* Styles for desktop */
+@media (min-width: 768px) { /* Adjust the breakpoint as needed */
+    .navbar {
+        padding: 20px 0; /* Increase the padding */
+        height: 90px; /* Set the height to 90px */
+    }
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	color: #fff;
+	@media (max-width: 768px) {
+		color: #333;	
+	}
+}
+/*-- my-edit-end--*/
+
+.navbar-light .navbar-nav .nav-link {
+	color: #333;
+}
+
+@include desktop {
+	.navbar-nav {
+		margin-top: 30px;
+	}
+}
+/*-- my-edit-start --*/
+.navbar-nav .nav-link {
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 5px 5px 18px !important;
+	transition: .2s ease;
+	font-size: 14px;
+	/*-- this is desktop --*/
+	@media (min-width: 768px) {
+		padding: 10px !important;
+		font-weight: normal;
+		font-size: 18px;
+	}
+}
+/*-- my-edit-end --*/
+
+/* Dropdown */
+.dropdown {
+	&:hover {
+		.dropdown-menu {
+			visibility: visible;
+			opacity: 1;
+			transform: scaleX(1);
+		}
+	}
+
+	&-item {
+		display: block;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: normal;
+		text-decoration: none;
+		padding: 15px;
+		color: #333;
+		border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+		transition: .2s ease;
+
+		&:hover {
+			background: #fff;
+		}
+	}
+
+	&-menu {
+		padding: 0 15px;
+		border: 0;
+		border-radius: 0px;
+		width: 100%;
+		box-shadow: none;
+		background: none;
+		min-width: 180px;
+		top: 100%;
+		left: -10px;
+		border-radius: 0;
+		display: block;
+		visibility: hidden;
+		transition: .3s ease;
+		opacity: 0;
+		transform: scale(.8);
+		background: #fff;
+
+		@include desktop {
+			display: none;
+			opacity: 1;
+			visibility: visible;
+			transform: scale(1);
+			transform-origin: unset;
+			text-align: center;
+		}
+
+		&.show {
+			visibility: hidden;
+
+			@include desktop {
+				visibility: visible;
+				display: block;
+			}
+		}
+	}
+}
+
+/*-- Header style 1 --*/ /*-- my-edit-start --*/
+.header {
+	.navbar {
+		@include desktop {
+			padding: 16.5px 0;
+		}
+	}
+	@include desktop {
+		background: #ffffff;
+		box-shadow: 0px 1px 7px 0 rgba(0, 0, 0, 0.2);
+	}
+}
+
+.header-solid {
+    background: #ffffff;
+    box-shadow: 0px 1px 7px 0 rgba(0, 0, 0, 0.2);
+
+    .navbar-nav .nav-link {
+        color: #333; /* Kleur van de navigatietekst wordt zwart */
+    }
+	@media (max-width: 768px) {
+		background: #ffffff;
+	}	
+}
+/*-- Logo --*/
+/* Voor mobiele apparaten */
+.navbar-brand.navbar-bg {
+	position: absolute;
+	left: 0;
+	padding: 5px 15px  5px; /* Vergroot de padding */
+	width: 20%;
+	height: 90px; /* Vergroot de hoogte */
+	line-height: 90px; /* Vergroot de line-height */
+}
+.logo-site {
+	transition: all 0.3s ease;
+  }
+  
+  /* Mobile-specific logo */
+  @media (max-width: 768px) {
+	.logo-site {
+	  background-image: url('/images/logo2.png'); 
+ }
+} 
+/* Voor mobile */
+@media (max-width: 768px) {
+	.navbar-brand.navbar-bg {
+		position: absolute;
+		left: 0;
+		padding: 4px 15px 10px; /* Vergroot de padding */
+		width: 40%;
+		height: 62px; /* Vergroot de hoogte */
+		line-height: 62px; /* Vergroot de line-height */
+		}
+	
+}
+/*-- my-edit-end --*/
+
+
+/* Header Style - 2
+================================================== */
+
+.header2 {
+	padding: 8px 0;
+
+	@include desktop {
+		background: #191919;
+		box-shadow: 0px 1px 7px 0 rgba(0, 0, 0, 0.2);
+	}
+
+	.navbar {
+		padding: 0;
+	}
+}
+
+.header2 .navbar-brand {
+	background: none;
+	padding-top: 3px;
+}
+
+/* Header Style - 3
+================================================== */
+
+.header3 {
+	.navbar {
+		background: #fff;
+		border-radius: 0 0 5px 5px;
+		box-shadow: 0px 1px 7px 0 rgba(0, 0, 0, 0.2);
+
+		&-brand {
+			background: transparent;
+		}
+
+		&-toggler {
+			background: transparent;
+		}
+	}
+}
+
+
+/* Header Style - 4
+================================================== */
+
+.header4 {
+	background: #fff;
+	box-shadow: 0px 1px 7px 0 rgba(0, 0, 0, 0.2);
+
+	.navbar {
+		&-brand {
+			background: transparent;
+		}
+
+		&-toggler {
+			background: transparent;
+		}
+	}
+}

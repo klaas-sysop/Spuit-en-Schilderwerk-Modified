@@ -1,0 +1,2 @@
+This is the color code overlay for the logos
+#999999
